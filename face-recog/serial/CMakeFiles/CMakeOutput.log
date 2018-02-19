@@ -1,0 +1,893 @@
+The system is: Linux - 2.6.32-642.6.2.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3235021170/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3235021170.dir/build.make CMakeFiles/cmTryCompileExec3235021170.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3235021170.dir/testCCompiler.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -o CMakeFiles/cmTryCompileExec3235021170.dir/testCCompiler.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3235021170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3235021170.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib CMakeFiles/cmTryCompileExec3235021170.dir/testCCompiler.c.o  -o cmTryCompileExec3235021170 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec784904655/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec784904655.dir/build.make CMakeFiles/cmTryCompileExec784904655.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -o CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec784904655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec784904655.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc     -v CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec784904655 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/data/apps/gcc/4.8.2/bin/gcc
+COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec784904655' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-mtune=generic' '-march=x86-64'
+ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec784904655 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec784904655/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec784904655.dir/build.make CMakeFiles/cmTryCompileExec784904655.dir/build]
+  ignore line: [gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -o CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec784904655]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec784904655.dir/link.txt --verbose=1]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc     -v CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec784904655 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/apps/gcc/4.8.2/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec784904655' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec784904655 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec784904655] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec784904655.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> [/data/apps/gcc/4.8.2/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> [/data/apps/gcc/4.8.2/lib]
+  implicit libs: [mpi;pthread;c]
+  implicit dirs: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib;/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2;/data/apps/gcc/4.8.2/lib64;/lib64;/usr/lib64;/data/apps/gcc/4.8.2/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3543708160/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3543708160.dir/build.make CMakeFiles/cmTryCompileExec3543708160.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3543708160.dir/testCXXCompiler.cxx.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC     -o CMakeFiles/cmTryCompileExec3543708160.dir/testCXXCompiler.cxx.o -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3543708160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3543708160.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib CMakeFiles/cmTryCompileExec3543708160.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3543708160 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec457311256/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec457311256.dir/build.make CMakeFiles/cmTryCompileExec457311256.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC     -o CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec457311256
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec457311256.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC      -v CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec457311256 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/data/apps/gcc/4.8.2/bin/g++
+COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec457311256' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec457311256 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi_cxx -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec457311256/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec457311256.dir/build.make CMakeFiles/cmTryCompileExec457311256.dir/build]
+  ignore line: [gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC     -o CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec457311256]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec457311256.dir/link.txt --verbose=1]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC      -v CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec457311256 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/apps/gcc/4.8.2/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec457311256' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec457311256 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi_cxx -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec457311256] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec457311256.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi_cxx] ==> lib [mpi_cxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> [/data/apps/gcc/4.8.2/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> [/data/apps/gcc/4.8.2/lib]
+  implicit libs: [mpi_cxx;mpi;stdc++;m;pthread;c]
+  implicit dirs: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib;/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2;/data/apps/gcc/4.8.2/lib64;/lib64;/usr/lib64;/data/apps/gcc/4.8.2/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 3.10.104-1.el6.elrepo.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/3.6.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4ec22/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4ec22.dir/build.make CMakeFiles/cmTC_4ec22.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ec22.dir/testCCompiler.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc     -o CMakeFiles/cmTC_4ec22.dir/testCCompiler.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4ec22
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec22.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_4ec22.dir/testCCompiler.c.o  -o cmTC_4ec22 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8e541/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8e541.dir/build.make CMakeFiles/cmTC_8e541.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc     -o CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o   -c /data/apps/cmake/3.6.1/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8e541
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e541.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -v CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o  -o cmTC_8e541 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/data/apps/gcc/4.8.2/bin/gcc
+COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/data/apps/opencv/2.4.9/lib' '-L/data/apps/cuda/6.0/lib64' '-L/data/apps/cuda/6.0/lib' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-L/data/apps/gcc/4.8.2/lib64' '-L/data/apps/gcc/4.8.2/lib' '-v' '-o' 'cmTC_8e541' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-mtune=generic' '-march=x86-64'
+ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e541 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_8e541/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_8e541.dir/build.make CMakeFiles/cmTC_8e541.dir/build]
+  ignore line: [gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc     -o CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o   -c /data/apps/cmake/3.6.1/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8e541]
+  ignore line: [/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e541.dir/link.txt --verbose=1]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -v CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o  -o cmTC_8e541 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/apps/gcc/4.8.2/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/data/apps/opencv/2.4.9/lib' '-L/data/apps/cuda/6.0/lib64' '-L/data/apps/cuda/6.0/lib' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-L/data/apps/gcc/4.8.2/lib64' '-L/data/apps/gcc/4.8.2/lib' '-v' '-o' 'cmTC_8e541' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e541 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8e541] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/data/apps/opencv/2.4.9/lib] ==> dir [/data/apps/opencv/2.4.9/lib]
+    arg [-L/data/apps/cuda/6.0/lib64] ==> dir [/data/apps/cuda/6.0/lib64]
+    arg [-L/data/apps/cuda/6.0/lib] ==> dir [/data/apps/cuda/6.0/lib]
+    arg [-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+    arg [-L/data/apps/gcc/4.8.2/lib64] ==> dir [/data/apps/gcc/4.8.2/lib64]
+    arg [-L/data/apps/gcc/4.8.2/lib] ==> dir [/data/apps/gcc/4.8.2/lib]
+    arg [-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTC_8e541.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/data/apps/opencv/2.4.9/lib] ==> [/data/apps/opencv/2.4.9/lib]
+  collapse library dir [/data/apps/cuda/6.0/lib64] ==> [/data/apps/cuda/6.0/lib64]
+  collapse library dir [/data/apps/cuda/6.0/lib] ==> [/data/apps/cuda/6.0/lib]
+  collapse library dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/gcc/4.8.2/lib64] ==> [/data/apps/gcc/4.8.2/lib64]
+  collapse library dir [/data/apps/gcc/4.8.2/lib] ==> [/data/apps/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> [/data/apps/gcc/4.8.2/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> [/data/apps/gcc/4.8.2/lib]
+  implicit libs: [mpi;pthread;c]
+  implicit dirs: [/data/apps/opencv/2.4.9/lib;/data/apps/cuda/6.0/lib64;/data/apps/cuda/6.0/lib;/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib;/data/apps/gcc/4.8.2/lib64;/data/apps/gcc/4.8.2/lib;/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_eccf9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eccf9.dir/build.make CMakeFiles/cmTC_eccf9.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eccf9.dir/feature_tests.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -std=c11 -o CMakeFiles/cmTC_eccf9.dir/feature_tests.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eccf9
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eccf9.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_eccf9.dir/feature_tests.c.o  -o cmTC_eccf9 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_87608/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_87608.dir/build.make CMakeFiles/cmTC_87608.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87608.dir/feature_tests.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -std=c99 -o CMakeFiles/cmTC_87608.dir/feature_tests.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/feature_tests.c
+Linking C executable cmTC_87608
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87608.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_87608.dir/feature_tests.c.o  -o cmTC_87608 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f15f6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f15f6.dir/build.make CMakeFiles/cmTC_f15f6.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f15f6.dir/feature_tests.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -std=c90 -o CMakeFiles/cmTC_f15f6.dir/feature_tests.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f15f6
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f15f6.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc      -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_f15f6.dir/feature_tests.c.o  -o cmTC_f15f6 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5c797/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5c797.dir/build.make CMakeFiles/cmTC_5c797.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c797.dir/testCXXCompiler.cxx.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC      -o CMakeFiles/cmTC_5c797.dir/testCXXCompiler.cxx.o -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5c797
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c797.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_5c797.dir/testCXXCompiler.cxx.o  -o cmTC_5c797 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_de370/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_de370.dir/build.make CMakeFiles/cmTC_de370.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC      -o CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o -c /data/apps/cmake/3.6.1/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_de370
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de370.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -v CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_de370 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/data/apps/gcc/4.8.2/bin/g++
+COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/data/apps/opencv/2.4.9/lib' '-L/data/apps/cuda/6.0/lib64' '-L/data/apps/cuda/6.0/lib' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-L/data/apps/gcc/4.8.2/lib64' '-L/data/apps/gcc/4.8.2/lib' '-v' '-o' 'cmTC_de370' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_de370 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi_cxx -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_de370/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_de370.dir/build.make CMakeFiles/cmTC_de370.dir/build]
+  ignore line: [gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC      -o CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o -c /data/apps/cmake/3.6.1/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_de370]
+  ignore line: [/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de370.dir/link.txt --verbose=1]
+  ignore line: [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -v CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_de370 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/apps/gcc/4.8.2/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --with-gmp=/data/apps/gmp/5.1.3 --with-mpfr=/data/apps/mpfr/3.1.2 --with-mpc=/data/apps/mpc-1.0.1 --enable-threads=posix --with-as=/data/apps/binutils/2.23.2/bin/as --mandir=/data/apps/gcc/4.8.2/man --pdfdir=/data/apps/gcc/4.8.2/pdf --htmldir=/data/apps/gcc/4.8.2/html --enable-languages=c,c++,fortran,ada,go,java,lto,objc,obj-c++ --prefix=/data/apps/gcc/4.8.2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/data/apps/opencv/2.4.9/lib' '-L/data/apps/cuda/6.0/lib64' '-L/data/apps/cuda/6.0/lib' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-L/data/apps/gcc/4.8.2/lib64' '-L/data/apps/gcc/4.8.2/lib' '-v' '-o' 'cmTC_de370' '-rdynamic' '-I' '/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/include' '-pthread' '-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_de370 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o -rpath /data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib --enable-new-dtags -lmpi_cxx -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/data/apps/gcc/4.8.2/libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_de370] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/data/apps/opencv/2.4.9/lib] ==> dir [/data/apps/opencv/2.4.9/lib]
+    arg [-L/data/apps/cuda/6.0/lib64] ==> dir [/data/apps/cuda/6.0/lib64]
+    arg [-L/data/apps/cuda/6.0/lib] ==> dir [/data/apps/cuda/6.0/lib]
+    arg [-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+    arg [-L/data/apps/gcc/4.8.2/lib64] ==> dir [/data/apps/gcc/4.8.2/lib64]
+    arg [-L/data/apps/gcc/4.8.2/lib] ==> dir [/data/apps/gcc/4.8.2/lib]
+    arg [-L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTC_de370.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi_cxx] ==> lib [mpi_cxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/data/apps/opencv/2.4.9/lib] ==> [/data/apps/opencv/2.4.9/lib]
+  collapse library dir [/data/apps/cuda/6.0/lib64] ==> [/data/apps/cuda/6.0/lib64]
+  collapse library dir [/data/apps/cuda/6.0/lib] ==> [/data/apps/cuda/6.0/lib]
+  collapse library dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/gcc/4.8.2/lib64] ==> [/data/apps/gcc/4.8.2/lib64]
+  collapse library dir [/data/apps/gcc/4.8.2/lib] ==> [/data/apps/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib] ==> [/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> [/data/apps/gcc/4.8.2/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> [/data/apps/gcc/4.8.2/lib]
+  implicit libs: [mpi_cxx;mpi;stdc++;m;pthread;c]
+  implicit dirs: [/data/apps/opencv/2.4.9/lib;/data/apps/cuda/6.0/lib64;/data/apps/cuda/6.0/lib;/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib;/data/apps/gcc/4.8.2/lib64;/data/apps/gcc/4.8.2/lib;/data/apps/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6dec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6dec.dir/build.make CMakeFiles/cmTC_d6dec.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6dec.dir/feature_tests.cxx.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC     -std=c++1y -o CMakeFiles/cmTC_d6dec.dir/feature_tests.cxx.o -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d6dec
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6dec.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_d6dec.dir/feature_tests.cxx.o  -o cmTC_d6dec -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2df99/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2df99.dir/build.make CMakeFiles/cmTC_2df99.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2df99.dir/feature_tests.cxx.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC     -std=c++11 -o CMakeFiles/cmTC_2df99.dir/feature_tests.cxx.o -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2df99
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df99.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_2df99.dir/feature_tests.cxx.o  -o cmTC_2df99 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_dec6f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_dec6f.dir/build.make CMakeFiles/cmTC_dec6f.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dec6f.dir/feature_tests.cxx.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC     -std=c++98 -o CMakeFiles/cmTC_dec6f.dir/feature_tests.cxx.o -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dec6f
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec6f.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpiCC       -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_dec6f.dir/feature_tests.cxx.o  -o cmTC_dec6f -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b00da/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b00da.dir/build.make CMakeFiles/cmTC_b00da.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b00da.dir/CheckIncludeFile.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -fPIC    -o CMakeFiles/cmTC_b00da.dir/CheckIncludeFile.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b00da
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b00da.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc  -fPIC    -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_b00da.dir/CheckIncludeFile.c.o  -o cmTC_b00da -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d2314/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d2314.dir/build.make CMakeFiles/cmTC_d2314.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2314.dir/CheckSymbolExists.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -fPIC    -o CMakeFiles/cmTC_d2314.dir/CheckSymbolExists.c.o   -c /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d2314
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2314.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc  -fPIC    -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_d2314.dir/CheckSymbolExists.c.o  -o cmTC_d2314 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp'
+
+File /data/users/adasarat/demo/parallel-face-recognition/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2943b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2943b.dir/build.make CMakeFiles/cmTC_2943b.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2943b.dir/CheckIncludeFile.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -fPIC    -o CMakeFiles/cmTC_2943b.dir/CheckIncludeFile.c.o   -c /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2943b
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2943b.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc  -fPIC    -L/data/apps/mpi/openmpi-1.8.3/gcc/4.9.2/lib -L/data/apps/gcc/4.9.2/lib64 -L/data/apps/gcc/4.9.2/lib -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_2943b.dir/CheckIncludeFile.c.o  -o cmTC_2943b -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ca1b8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ca1b8.dir/build.make CMakeFiles/cmTC_ca1b8.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca1b8.dir/CheckSymbolExists.c.o
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc    -fPIC    -o CMakeFiles/cmTC_ca1b8.dir/CheckSymbolExists.c.o   -c /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ca1b8
+/data/apps/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca1b8.dir/link.txt --verbose=1
+/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/bin/mpicc  -fPIC    -L/data/apps/mpi/openmpi-1.8.3/gcc/4.9.2/lib -L/data/apps/gcc/4.9.2/lib64 -L/data/apps/gcc/4.9.2/lib -L /data/apps/opencv/2.4.9/lib -L/data/apps/cuda/6.0/lib64 -L/data/apps/cuda/6.0/lib -L/data/apps/mpi/openmpi-1.8.3/gcc/4.8.2/lib -L/data/apps/gcc/4.8.2/lib64 -L/data/apps/gcc/4.8.2/lib  CMakeFiles/cmTC_ca1b8.dir/CheckSymbolExists.c.o  -o cmTC_ca1b8 -rdynamic 
+gmake[1]: Leaving directory `/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp'
+
+File /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

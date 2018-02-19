@@ -1,0 +1,378 @@
+Initiating Process 6
+Initiating Process 5
+Initiating Process 9
+Initiating Process 4
+Initiating Process 8
+Initiating Process 10
+Initiating Process 11
+Initiating Process 15
+Initiating Process 13
+Initiating Process 7
+Initiating Process 16
+Initiating Process 17
+Initiating Process 20
+Initiating Process 18
+Initiating Process 19
+Initiating Process 14
+Initiating Process 12
+Initiating Process 21
+Initiating Process 22
+Initiating Process 23
+Initiating Process 0
+Initiating Process 2
+Initiating Process 1
+Initiating Process 3
+CSV file Read by Process 15
+CSV file Read by Process 16
+CSV file Read by Process 17
+CSV file Read by Process 18
+CSV file Read by Process 19
+CSV file Read by Process 20
+CSV file Read by Process 21
+CSV file Read by Process 22
+CSV file Read by Process 23
+CSV file Read by Process 1
+CSV file Read by Process 2
+CSV file Read by Process 3
+CSV file Read by Process 4
+CSV file Read by Process 5
+CSV file Read by Process 6
+CSV file Read by Process 7
+CSV file Read by Process 8
+CSV file Read by Process 9
+CSV file Read by Process 10
+CSV file Read by Process 11
+CSV file Read by Process 12
+CSV file Read by Process 13
+CSV file Read by Process 0
+CSV file Read by Process 14
+Process 1 is buiding a model.
+Process 2 is buiding a model.
+Process 23 is buiding a model.
+Process 0 is buiding a model.
+Process 10 is buiding a model.
+Process 9 is buiding a model.
+Process 6 is buiding a model.
+Process 17 is buiding a model.
+Process 21 is buiding a model.
+Process 5 is buiding a model.
+Process 19 is buiding a model.
+Process 11 is buiding a model.
+Process 20 is buiding a model.
+Process 22 is buiding a model.
+Process 14 is buiding a model.
+Process 13 is buiding a model.
+Process 12 is buiding a model.
+Process 3 is buiding a model.
+Process 4 is buiding a model.
+Process 7 is buiding a model.
+Process 18 is buiding a model.
+Process 8 is buiding a model.
+Process 15 is buiding a model.
+Process 16 is buiding a model.
+predicted label of Process 17 is 17
+predicted label of Process 20 is 20
+predicted label of Process 19 is 19
+predicted label of Process 0 is 24
+predicted label of Process 15 is 15
+predicted label of Process 23 is 23
+predicted label of Process 18 is 18
+predicted label of Process 16 is 16
+predicted label of Process 21 is 21
+predicted label of Process 22 is 22
+predicted label of Process 3 is 3
+predicted label of Process 1 is 1
+predicted label of Process 10 is 10
+predicted label of Process 12 is 12
+predicted label of Process 2 is 2
+predicted label of Process 14 is 14
+predicted label of Process 4 is 4
+predicted label of Process 9 is 9
+predicted label of Process 7 is 7
+predicted label of Process 13 is 13
+predicted label of Process 6 is 6
+predicted label of Process 8 is 8
+predicted label of Process 11 is 11
+predicted label of Process 5 is 5
+Final reducion in Process 11
+Final reducion in Process 13
+Final reducion in Process 0
+Final reducion in Process 20
+Final reducion in Process 8
+Final reducion in Process 18
+Final reducion in Process 5
+Final reducion in Process 21
+Final reducion in Process 2
+Final reducion in Process 12
+Final reducion in Process 23
+Final reducion in Process 16
+Final reducion in Process 7
+Final reducion in Process 10
+Final reducion in Process 22
+Final reducion in Process 14
+Final reducion in Process 1
+Final reducion in Process 15
+Final reducion in Process 3
+Final reducion in Process 9
+Final reducion in Process 19
+Final reducion in Process 4
+Final reducion in Process 6
+Final reducion in Process 17
+display_results from Process 0
+Cores Used 24
+Predicted class = 9 
+Elapsed time 0.090786
+Creating Output Face which is recognized
+Writing the output to RecognizedFace.pgm
+Initiating Process 0
+Initiating Process 12
+Initiating Process 2
+Initiating Process 4
+Initiating Process 6
+Initiating Process 5
+Initiating Process 7
+Initiating Process 3
+Initiating Process 1
+Initiating Process 9
+Initiating Process 10
+Initiating Process 8
+Initiating Process 11
+Initiating Process 14
+Initiating Process 15
+Initiating Process 19
+Initiating Process 17
+Initiating Process 16
+Initiating Process 18
+Initiating Process 23
+Initiating Process 13
+Initiating Process 20
+Initiating Process 21
+Initiating Process 22
+CSV file Read by Process 15
+CSV file Read by Process 16
+CSV file Read by Process 17
+CSV file Read by Process 18
+CSV file Read by Process 19
+CSV file Read by Process 20
+CSV file Read by Process 21
+CSV file Read by Process 22
+CSV file Read by Process 23
+CSV file Read by Process 1
+CSV file Read by Process 2
+CSV file Read by Process 3
+CSV file Read by Process 4
+CSV file Read by Process 5
+CSV file Read by Process 6
+CSV file Read by Process 7
+CSV file Read by Process 8
+CSV file Read by Process 9
+CSV file Read by Process 10
+CSV file Read by Process 11
+CSV file Read by Process 12
+CSV file Read by Process 13
+CSV file Read by Process 0
+CSV file Read by Process 14
+Process 2 is buiding a model.
+Process 1 is buiding a model.
+Process 0 is buiding a model.
+Process 23 is buiding a model.
+Process 3 is buiding a model.
+Process 4 is buiding a model.
+Process 9 is buiding a model.
+Process 10 is buiding a model.
+Process 12 is buiding a model.
+Process 19 is buiding a model.
+Process 20 is buiding a model.
+Process 11 is buiding a model.
+Process 6 is buiding a model.
+Process 5 is buiding a model.
+Process 18 is buiding a model.
+Process 21 is buiding a model.
+Process 17 is buiding a model.
+Process 8 is buiding a model.
+Process 7 is buiding a model.
+Process 22 is buiding a model.
+Process 16 is buiding a model.
+Process 15 is buiding a model.
+Process 13 is buiding a model.
+Process 14 is buiding a model.
+predicted label of Process 0 is 24
+predicted label of Process 16 is 16
+predicted label of Process 20 is 20
+predicted label of Process 22 is 22
+predicted label of Process 19 is 19
+predicted label of Process 15 is 15
+predicted label of Process 21 is 21
+predicted label of Process 17 is 17
+predicted label of Process 23 is 23
+predicted label of Process 18 is 18
+predicted label of Process 1 is 1
+predicted label of Process 9 is 9
+predicted label of Process 2 is 2
+predicted label of Process 14 is 14
+predicted label of Process 8 is 8
+predicted label of Process 3 is 3
+predicted label of Process 12 is 12
+predicted label of Process 13 is 13
+predicted label of Process 5 is 5
+predicted label of Process 11 is 11
+predicted label of Process 4 is 4
+predicted label of Process 10 is 10
+predicted label of Process 6 is 6
+predicted label of Process 7 is 7
+Final reducion in Process 22
+Final reducion in Process 15
+Final reducion in Process 7
+Final reducion in Process 5
+Final reducion in Process 9
+Final reducion in Process 10
+Final reducion in Process 17
+Final reducion in Process 8
+Final reducion in Process 11
+Final reducion in Process 2
+Final reducion in Process 21
+Final reducion in Process 14
+Final reducion in Process 19
+Final reducion in Process 6
+Final reducion in Process 1
+Final reducion in Process 18
+Final reducion in Process 20
+Final reducion in Process 13
+Final reducion in Process 0
+Final reducion in Process 23
+Final reducion in Process 4
+Final reducion in Process 3
+Final reducion in Process 12
+Final reducion in Process 16
+display_results from Process 0
+Cores Used 24
+Predicted class = 9 
+Elapsed time 0.0874209
+Creating Output Face which is recognized
+Writing the output to RecognizedFace.pgm
+Initiating Process 0
+Initiating Process 2
+Initiating Process 11
+Initiating Process 3
+Initiating Process 4
+Initiating Process 1
+Initiating Process 5
+Initiating Process 6
+Initiating Process 7
+Initiating Process 8
+Initiating Process 10
+Initiating Process 9
+Initiating Process 13
+Initiating Process 12
+Initiating Process 14
+Initiating Process 16
+Initiating Process 15
+Initiating Process 18
+Initiating Process 17
+Initiating Process 19
+Initiating Process 20
+Initiating Process 21
+Initiating Process 23
+Initiating Process 22
+CSV file Read by Process 15
+CSV file Read by Process 16
+CSV file Read by Process 17
+CSV file Read by Process 18
+CSV file Read by Process 19
+CSV file Read by Process 20
+CSV file Read by Process 21
+CSV file Read by Process 22
+CSV file Read by Process 23
+CSV file Read by Process 1
+CSV file Read by Process 2
+CSV file Read by Process 3
+CSV file Read by Process 4
+CSV file Read by Process 5
+CSV file Read by Process 6
+CSV file Read by Process 7
+CSV file Read by Process 8
+CSV file Read by Process 9
+CSV file Read by Process 10
+CSV file Read by Process 11
+CSV file Read by Process 12
+CSV file Read by Process 13
+CSV file Read by Process 0
+CSV file Read by Process 14
+Process 0 is buiding a model.
+Process 23 is buiding a model.
+Process 4 is buiding a model.
+Process 1 is buiding a model.
+Process 19 is buiding a model.
+Process 20 is buiding a model.
+Process 3 is buiding a model.
+Process 12 is buiding a model.
+Process 11 is buiding a model.
+Process 2 is buiding a model.
+Process 5 is buiding a model.
+Process 6 is buiding a model.
+Process 7 is buiding a model.
+Process 8 is buiding a model.
+Process 18 is buiding a model.
+Process 10 is buiding a model.
+Process 9 is buiding a model.
+Process 17 is buiding a model.
+Process 15 is buiding a model.
+Process 21 is buiding a model.
+Process 16 is buiding a model.
+Process 22 is buiding a model.
+Process 14 is buiding a model.
+Process 13 is buiding a model.
+predicted label of Process 22 is 22
+predicted label of Process 0 is 24
+predicted label of Process 23 is 23
+predicted label of Process 21 is 21
+predicted label of Process 17 is 17
+predicted label of Process 15 is 15
+predicted label of Process 20 is 20
+predicted label of Process 18 is 18
+predicted label of Process 19 is 19
+predicted label of Process 16 is 16
+predicted label of Process 1 is 1
+predicted label of Process 3 is 3
+predicted label of Process 11 is 11
+predicted label of Process 14 is 14
+predicted label of Process 5 is 5
+predicted label of Process 6 is 6
+predicted label of Process 2 is 2
+predicted label of Process 10 is 10
+predicted label of Process 7 is 7
+predicted label of Process 9 is 9
+predicted label of Process 8 is 8
+predicted label of Process 12 is 12
+predicted label of Process 4 is 4
+predicted label of Process 13 is 13
+Final reducion in Process 5
+Final reducion in Process 12
+Final reducion in Process 1
+Final reducion in Process 8
+Final reducion in Process 21
+Final reducion in Process 4
+Final reducion in Process 7
+Final reducion in Process 23
+Final reducion in Process 9
+Final reducion in Process 16
+Final reducion in Process 19
+Final reducion in Process 18
+Final reducion in Process 13
+Final reducion in Process 15
+Final reducion in Process 11
+Final reducion in Process 3
+Final reducion in Process 6
+Final reducion in Process 14
+Final reducion in Process 10
+Final reducion in Process 17
+Final reducion in Process 20
+Final reducion in Process 22
+Final reducion in Process 0
+Final reducion in Process 2
+display_results from Process 0
+Cores Used 24
+Predicted class = 9 
+Elapsed time 0.0850902
+Creating Output Face which is recognized
+Writing the output to RecognizedFace.pgm

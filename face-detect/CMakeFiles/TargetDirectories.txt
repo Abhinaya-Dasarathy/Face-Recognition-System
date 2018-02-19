@@ -1,0 +1,3 @@
+/data/users/adasarat/parallel-faceRecognition/face-detection/CMakeFiles/rebuild_cache.dir
+/data/users/adasarat/parallel-faceRecognition/face-detection/CMakeFiles/edit_cache.dir
+/data/users/adasarat/parallel-faceRecognition/face-detection/CMakeFiles/Face.dir

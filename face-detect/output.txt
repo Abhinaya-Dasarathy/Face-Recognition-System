@@ -1,0 +1,52 @@
+-- Found CUDA: /data/apps/cuda/6.0 (found suitable exact version "6.0") 
+-- Found CUDA: /data/apps/cuda/6.0 (found version "6.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /data/users/adasarat/parallel-faceRecognition/face-detection
+[100%] Built target Face
+Incorrect input for command line. Using default values instead.
+Correct Usage: facedetect --cascade="<cascade_path>" [filename|camera_index]
+
+Input image: ./images/lena_256.jpg
+Image size: [256, 256]
+
+Input Detector: ./data/haarcascade_frontalface_default.xml
+Num of Stages: 25
+Num of Classifiers: 2913
+
+Beginning GPU(Kernel 1) Haar Detection hello ****
+
+Scales size:13Entering launch kernel 1
+Stage: 0 // Faces Detected: 0 // GPU Time: 2.1 ms 
+Entering launch kernel 1
+Stage: 1 // Faces Detected: 0 // GPU Time: 1.0 ms 
+Entering launch kernel 1
+Stage: 2 // Faces Detected: 0 // GPU Time: 1.8 ms 
+Entering launch kernel 1
+Stage: 3 // Faces Detected: 0 // GPU Time: 0.9 ms 
+Entering launch kernel 1
+Stage: 4 // Faces Detected: 1 // GPU Time: 3.2 ms 
+Entering launch kernel 1
+Stage: 5 // Faces Detected: 1 // GPU Time: 2.8 ms 
+Entering launch kernel 1
+Stage: 6 // Faces Detected: 75 // GPU Time: 3.0 ms 
+Entering launch kernel 1
+Stage: 7 // Faces Detected: 49 // GPU Time: 2.9 ms 
+Entering launch kernel 1
+Stage: 8 // Faces Detected: 49 // GPU Time: 2.8 ms 
+Entering launch kernel 1
+Stage: 9 // Faces Detected: 54 // GPU Time: 2.8 ms 
+Entering launch kernel 1
+Stage: 10 // Faces Detected: 36 // GPU Time: 2.6 ms 
+Entering launch kernel 1
+Stage: 11 // Faces Detected: 0 // GPU Time: 1.3 ms 
+Entering launch kernel 1
+Stage: 12 // Faces Detected: 0 // GPU Time: 0.2 ms 
+
+Total compute time: 27.5 ms 
+
+Size:1****Beginning OpenCV Haar Detection****
+
+
+Total compute time: 300.0 ms 
+

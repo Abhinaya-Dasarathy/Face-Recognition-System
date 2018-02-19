@@ -1,0 +1,18 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f8ab1/fast"
+gmake: *** No rule to make target `cmTC_f8ab1/fast'.  Stop.
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_22610/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_22610.dir/build.make CMakeFiles/cmTC_22610.dir/build
+gmake[1]: Entering directory `/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target `CMakeFiles/cmTC_22610.dir/link.txt', needed by `cmTC_22610'.  Stop.
+gmake[1]: Leaving directory `/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_22610/fast] Error 2
+
+

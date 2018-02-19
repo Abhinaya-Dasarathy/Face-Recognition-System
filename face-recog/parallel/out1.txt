@@ -1,0 +1,138 @@
+Initiating Process 0
+Initiating Process 1
+Initiating Process 6
+Initiating Process 4
+Initiating Process 5
+Initiating Process 3
+Initiating Process 2
+Initiating Process 7
+CSV file Read by Process 7
+CSV file Read by Process 1
+CSV file Read by Process 2
+CSV file Read by Process 3
+CSV file Read by Process 4
+CSV file Read by Process 5
+CSV file Read by Process 0
+CSV file Read by Process 6
+Process 0 is buiding a model.
+Process 7 is buiding a model.
+Process 2 is buiding a model.
+Process 4 is buiding a model.
+Process 3 is buiding a model.
+Process 1 is buiding a model.
+Process 6 is buiding a model.
+Process 5 is buiding a model.
+predicted label of Process 7 is 23
+predicted label of Process 0 is 16
+predicted label of Process 5 is 21
+predicted label of Process 1 is 33
+predicted label of Process 3 is 19
+predicted label of Process 6 is 6
+predicted label of Process 2 is 18
+predicted label of Process 4 is 4
+Final reducion in Process 4
+Final reducion in Process 3
+Final reducion in Process 6
+Final reducion in Process 5
+Final reducion in Process 2
+Final reducion in Process 7
+Final reducion in Process 1
+Final reducion in Process 0
+display_results from Process 0
+Cores Used 8
+Predicted class = 9 
+Elapsed time 0.194175
+Creating Output Face which is recognized
+Writing the output to RecognizedFace.pgm
+Initiating Process 4
+Initiating Process 0
+Initiating Process 6
+Initiating Process 3
+Initiating Process 5
+Initiating Process 7
+Initiating Process 1
+Initiating Process 2
+CSV file Read by Process 7
+CSV file Read by Process 1
+CSV file Read by Process 2
+CSV file Read by Process 3
+CSV file Read by Process 4
+CSV file Read by Process 5
+CSV file Read by Process 0
+CSV file Read by Process 6
+Process 7 is buiding a model.
+Process 0 is buiding a model.
+Process 6 is buiding a model.
+Process 2 is buiding a model.
+Process 5 is buiding a model.
+Process 4 is buiding a model.
+Process 1 is buiding a model.
+Process 3 is buiding a model.
+predicted label of Process 7 is 7
+predicted label of Process 0 is 16
+predicted label of Process 3 is 35
+predicted label of Process 5 is 21
+predicted label of Process 1 is 33
+predicted label of Process 2 is 34
+predicted label of Process 4 is 4
+predicted label of Process 6 is 38
+Final reducion in Process 5
+Final reducion in Process 2
+Final reducion in Process 7
+Final reducion in Process 0
+Final reducion in Process 4
+Final reducion in Process 1
+Final reducion in Process 3
+Final reducion in Process 6
+display_results from Process 0
+Cores Used 8
+Predicted class = 9 
+Elapsed time 0.191033
+Creating Output Face which is recognized
+Writing the output to RecognizedFace.pgm
+Initiating Process 2
+Initiating Process 7
+Initiating Process 3
+Initiating Process 0
+Initiating Process 4
+Initiating Process 5
+Initiating Process 6
+Initiating Process 1
+CSV file Read by Process 7
+CSV file Read by Process 1
+CSV file Read by Process 2
+CSV file Read by Process 3
+CSV file Read by Process 4
+CSV file Read by Process 5
+CSV file Read by Process 0
+CSV file Read by Process 6
+Process 7 is buiding a model.
+Process 0 is buiding a model.
+Process 3 is buiding a model.
+Process 4 is buiding a model.
+Process 1 is buiding a model.
+Process 2 is buiding a model.
+Process 6 is buiding a model.
+Process 5 is buiding a model.
+predicted label of Process 7 is 7
+predicted label of Process 0 is 16
+predicted label of Process 5 is 5
+predicted label of Process 1 is 33
+predicted label of Process 3 is 19
+predicted label of Process 2 is 2
+predicted label of Process 6 is 38
+predicted label of Process 4 is 4
+Final reducion in Process 1
+Final reducion in Process 6
+Final reducion in Process 4
+Final reducion in Process 5
+Final reducion in Process 3
+Final reducion in Process 2
+Final reducion in Process 7
+Final reducion in Process 0
+display_results from Process 0
+Cores Used 8
+Predicted class = 9 
+Elapsed time 0.183842
+Creating Output Face which is recognized
+Writing the output to RecognizedFace.pgm

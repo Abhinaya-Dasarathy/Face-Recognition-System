@@ -1,0 +1,3 @@
+/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/edit_cache.dir
+/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/rebuild_cache.dir
+/data/users/adasarat/parallel-faceRecognition/face-recognition/serial-face-recognition/CMakeFiles/SerialFaceRecog.dir

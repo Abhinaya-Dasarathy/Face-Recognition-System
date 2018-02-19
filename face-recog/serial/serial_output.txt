@@ -1,0 +1,6 @@
+Initiating Process 
+Process is buiding a model.
+predicted label of Process is 9
+display_results
+Creating Output Face which is recognized
+Writing the output to RecognizedFaceSerial.pgm
